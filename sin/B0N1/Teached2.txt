@@ -1,0 +1,102 @@
+<Parameters>
+	Incest	1
+	Columns	1
+	Init	0.05
+	Print	5
+	Slope	0.5
+	Population	10
+	Mutation	0.1
+	Bias	0
+	Generations	1000
+	Predictions	199
+	Frame	1
+	Error	0.01
+	Normalization	1
+</Parameters>
+<Topology>
+	<Layer>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+		<Neuron/>
+	</Layer>
+	<Layer>
+		<Neuron>
+			Synapse	1	1	-0.92109533891958
+			Synapse	1	2	-0.7598728277017
+			Synapse	4	1	0.13248884669084
+			Bias	0.16218343065168
+		</Neuron>
+		<Neuron>
+			Synapse	1	3	-0.51084792892966
+			Synapse	1	4	-0.23718853892855
+			Synapse	4	1	-0.35546841258824
+			Bias	0.020763239898889
+		</Neuron>
+		<Neuron>
+			Synapse	1	5	-0.36441583090982
+			Synapse	1	6	-0.61016707023411
+			Synapse	4	1	-0.50621827187699
+			Bias	0.0028755028747758
+		</Neuron>
+		<Neuron>
+			Synapse	1	7	-0.68144058829053
+			Synapse	1	8	-0.72068272094784
+			Synapse	4	1	-0.16207603102653
+			Bias	0.4845698899112
+		</Neuron>
+		<Neuron>
+			Synapse	1	9	-0.042503778705295
+			Synapse	1	10	0.98658592128057
+			Synapse	4	1	0.038771530094706
+			Bias	-0.42555431714942
+		</Neuron>
+	</Layer>
+	<Layer>
+		<Neuron>
+			Synapse	2	1	0.74812986513767
+			Synapse	2	2	-0.24549592501778
+			Synapse	2	3	-0.91694436678172
+			Synapse	2	4	-1.1096195522666
+			Synapse	2	5	1.0635587461361
+			Bias	-0.21319698100542
+		</Neuron>
+		<Neuron>
+			Synapse	2	1	0.072484771476208
+			Synapse	2	2	-0.46437831880499
+			Synapse	2	3	0.22063539923027
+			Synapse	2	4	-0.24535035454214
+			Synapse	2	5	0.32651579693558
+			Bias	-0.33552205590484
+		</Neuron>
+		<Neuron>
+			Synapse	2	1	-0.68027931092319
+			Synapse	2	2	-0.33379986201804
+			Synapse	2	3	0.48076100631187
+			Synapse	2	4	0.79182173567513
+			Synapse	2	5	-1.0544131517981
+			Bias	0.24755556355773
+		</Neuron>
+	</Layer>
+	<Layer>
+		<Neuron>
+			Synapse	3	1	1.6798866397989
+			Synapse	3	2	0.23413234628593
+			Synapse	3	3	-1.6962097361833
+			Bias	-0.27931775920185
+		</Neuron>
+	</Layer>
+</Topology>
+<Results>
+	InputCount	10
+	OutputCount	1
+	Error	0.0098687571682365
+	Examples	190
+	Generation	279
+</Results>

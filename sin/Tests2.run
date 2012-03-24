@@ -1,0 +1,9 @@
+lua ./../Nerea.lua -T ./B0N0/Network2.txt ./Data/Teaching.txt ./B0N0/Teached2.txt
+lua ./../Nerea.lua -W ./B0N0/Teached2.txt ./Data/Working.txt ./B0N0/Results2.txt
+lua ./../Nerea.lua -T ./B0N1/Network2.txt ./Data/Teaching.txt ./B0N1/Teached2.txt
+lua ./../Nerea.lua -W ./B0N1/Teached2.txt ./Data/Working.txt ./B0N1/Results2.txt
+lua ./../Nerea.lua -T ./B1N0/Network2.txt ./Data/Teaching.txt ./B1N0/Teached2.txt
+lua ./../Nerea.lua -W ./B1N0/Teached2.txt ./Data/Working.txt ./B1N0/Results2.txt
+lua ./../Nerea.lua -T ./B1N1/Network2.txt ./Data/Teaching.txt ./B1N1/Teached2.txt
+lua ./../Nerea.lua -W ./B1N1/Teached2.txt ./Data/Working.txt ./B1N1/Results2.txt
+
