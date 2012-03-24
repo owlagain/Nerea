@@ -1,3 +1,9 @@
+-----------------------------------------------------------------------------------------------------------------------
+-- Developed and implemented by Owl Again
+-- Visit http://owlagain.net/
+-- Please respect other's efforts and do not remove this header even if you're going to use Nerea in your own projects
+-----------------------------------------------------------------------------------------------------------------------
+
 require("os")
 require("socket")
 
